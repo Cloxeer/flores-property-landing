@@ -113,7 +113,7 @@ body[data-page="contact"] .nav-links a[data-nav-page="contact"]::after { content
 
 /* ---- Hero ---- */
 .hero { position: relative; min-height: clamp(460px, 78vh, 760px); display: flex; align-items: center;
-  overflow: hidden; color: #fff; }
+  overflow: hidden; color: #fff; background: #7a594d; }
 .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(29,32,56,.10), rgba(29,32,56,.62)); }
 .hero-content { position: relative; z-index: 2; text-align: center; max-width: 760px; padding-block: 80px 120px; }
@@ -124,7 +124,7 @@ body[data-page="contact"] .nav-links a[data-nav-page="contact"]::after { content
 
 /* ---- Split (intro / about) ---- */
 .split { display: grid; gap: clamp(28px, 5vw, 60px); align-items: center; grid-template-columns: 1fr; }
-.rounded-media { border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; object-fit: cover; }
+.rounded-media { background: #414a67; aspect-ratio: 3 / 2; border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; object-fit: cover; }
 
 /* ---- Grids ---- */
 .grid { display: grid; gap: clamp(18px, 2.5vw, 28px); grid-template-columns: 1fr; }
@@ -201,7 +201,7 @@ body[data-page="contact"] .nav-links a[data-nav-page="contact"]::after { content
 }
 
 /* ---- Flores brand ---- */
-.hero .btn-primary, .section-dark .btn-primary { background: var(--c-sunset); color: #1d2038; }
-.hero .btn-primary:hover, .section-dark .btn-primary:hover { background: #d98562; }
+.hero .btn-primary, .section-dark .btn-primary, .nav-cta { background: var(--c-sunset); color: #1d2038; }
+.hero .btn-primary:hover, .section-dark .btn-primary:hover, .nav-cta:hover { background: #d98562; }
 .nav-logo img { height: 44px; border-radius: 50%; }
 .footer-logo img { height: 72px; width: 72px; border-radius: 50%; background: transparent; padding: 0; }
