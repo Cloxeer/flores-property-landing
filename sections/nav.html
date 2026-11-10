@@ -1,0 +1,27 @@
+<!-- nav — cloned structure (sticky top bar, left logo, right links, pill CTA, mobile drawer).
+     Links mirror config.yml project.pages so the editor derives nav from pages, not a link list. -->
+<header class="site-nav" data-halite-section="nav" data-nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html" aria-label="Home">
+      <img data-halite-path='["custom","brand","logo"]' data-halite-image="true"
+           src="images/flores-logo.png" alt="Flores Property Group logo"
+           data-halite-alt-path='["custom","brand","logoAlt"]' />
+      <span class="nav-brand" data-halite-path='["custom","brand","name"]'>Business Name</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" data-nav-menu aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav-page="home">Home</a></li>
+        <li><a href="services.html" data-nav-page="services">Services</a></li>
+        <li><a href="about.html" data-nav-page="about">About</a></li>
+        <li><a href="contact.html" data-nav-page="contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-primary nav-cta" href="contact.html"
+         data-halite-path='["custom","nav","ctaLabel"]'>Contact</a>
+    </nav>
+  </div>
+</header>

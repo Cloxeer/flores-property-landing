@@ -1,0 +1,721 @@
+{
+  "version": 1,
+  "renderer": "custom",
+  "projectType": "restaurant",
+  "templateVariant": "flores-property",
+  "label": "Flores Property",
+  "styles": [
+    "styles.css"
+  ],
+  "scripts": [
+    "scripts.js"
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "index.html",
+      "sections": [
+        {
+          "key": "nav",
+          "file": "sections/nav.html",
+          "placement": "beforeMain"
+        },
+        {
+          "key": "hero",
+          "file": "sections/hero.html",
+          "placement": "main"
+        },
+        {
+          "key": "introBand",
+          "file": "sections/intro-band.html",
+          "placement": "main"
+        },
+        {
+          "key": "services",
+          "file": "sections/services.html",
+          "placement": "main"
+        },
+        {
+          "key": "about",
+          "file": "sections/about.html",
+          "placement": "main"
+        },
+        {
+          "key": "mission",
+          "file": "sections/mission.html",
+          "placement": "main"
+        },
+        {
+          "key": "ctaBand",
+          "file": "sections/cta-band.html",
+          "placement": "main"
+        },
+        {
+          "key": "footer",
+          "file": "sections/footer.html",
+          "placement": "afterMain"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "path": "services.html",
+      "sections": [
+        {
+          "key": "nav",
+          "file": "sections/nav.html",
+          "placement": "beforeMain"
+        },
+        {
+          "key": "services",
+          "file": "sections/services.html",
+          "placement": "main"
+        },
+        {
+          "key": "ctaBand",
+          "file": "sections/cta-band.html",
+          "placement": "main"
+        },
+        {
+          "key": "footer",
+          "file": "sections/footer.html",
+          "placement": "afterMain"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "path": "about.html",
+      "sections": [
+        {
+          "key": "nav",
+          "file": "sections/nav.html",
+          "placement": "beforeMain"
+        },
+        {
+          "key": "about",
+          "file": "sections/about.html",
+          "placement": "main"
+        },
+        {
+          "key": "mission",
+          "file": "sections/mission.html",
+          "placement": "main"
+        },
+        {
+          "key": "ctaBand",
+          "file": "sections/cta-band.html",
+          "placement": "main"
+        },
+        {
+          "key": "footer",
+          "file": "sections/footer.html",
+          "placement": "afterMain"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "contact.html",
+      "sections": [
+        {
+          "key": "nav",
+          "file": "sections/nav.html",
+          "placement": "beforeMain"
+        },
+        {
+          "key": "ctaBand",
+          "file": "sections/cta-band.html",
+          "placement": "main"
+        },
+        {
+          "key": "footer",
+          "file": "sections/footer.html",
+          "placement": "afterMain"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "path": [
+        "meta",
+        "title"
+      ],
+      "label": "Site title",
+      "section": "meta"
+    },
+    {
+      "path": [
+        "meta",
+        "description"
+      ],
+      "label": "Meta description",
+      "section": "meta"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "name"
+      ],
+      "label": "Brand name",
+      "section": "nav"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "tagline"
+      ],
+      "label": "Tagline",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "logo"
+      ],
+      "label": "Logo image",
+      "section": "nav"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "logoAlt"
+      ],
+      "label": "Logo alt text",
+      "section": "nav"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "email"
+      ],
+      "label": "Email",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "phone"
+      ],
+      "label": "Phone",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "brand",
+        "location"
+      ],
+      "label": "Location",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "nav",
+        "ctaLabel"
+      ],
+      "label": "Nav button label",
+      "section": "nav"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "eyebrow"
+      ],
+      "label": "Hero eyebrow",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "headline"
+      ],
+      "label": "Hero headline",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "subhead"
+      ],
+      "label": "Hero subhead",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "image"
+      ],
+      "label": "Hero image",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "imageAlt"
+      ],
+      "label": "Hero image alt",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "ctaPrimaryLabel"
+      ],
+      "label": "Hero primary button",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "hero",
+        "ctaSecondaryLabel"
+      ],
+      "label": "Hero secondary button",
+      "section": "hero"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "eyebrow"
+      ],
+      "label": "Intro eyebrow",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "heading"
+      ],
+      "label": "Intro heading",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "body"
+      ],
+      "label": "Intro body",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "image"
+      ],
+      "label": "Intro image",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "imageAlt"
+      ],
+      "label": "Intro image alt",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "introBand",
+        "ctaLabel"
+      ],
+      "label": "Intro button",
+      "section": "introBand"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "heading"
+      ],
+      "label": "Services heading",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        0,
+        "title"
+      ],
+      "label": "Service 1 title",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        0,
+        "body"
+      ],
+      "label": "Service 1 body",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        0,
+        "ctaLabel"
+      ],
+      "label": "Service 1 link",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        1,
+        "title"
+      ],
+      "label": "Service 2 title",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        1,
+        "body"
+      ],
+      "label": "Service 2 body",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        1,
+        "ctaLabel"
+      ],
+      "label": "Service 2 link",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        2,
+        "title"
+      ],
+      "label": "Service 3 title",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        2,
+        "body"
+      ],
+      "label": "Service 3 body",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        2,
+        "ctaLabel"
+      ],
+      "label": "Service 3 link",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        3,
+        "title"
+      ],
+      "label": "Service 4 title",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        3,
+        "body"
+      ],
+      "label": "Service 4 body",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "services",
+        "cards",
+        3,
+        "ctaLabel"
+      ],
+      "label": "Service 4 link",
+      "section": "services"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "heading"
+      ],
+      "label": "About heading",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "image"
+      ],
+      "label": "About image",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "imageAlt"
+      ],
+      "label": "About image alt",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "paragraphs",
+        0
+      ],
+      "label": "About paragraph 1",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "paragraphs",
+        1
+      ],
+      "label": "About paragraph 2",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "paragraphs",
+        2
+      ],
+      "label": "About paragraph 3",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "about",
+        "ctaLabel"
+      ],
+      "label": "About button",
+      "section": "about"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        0,
+        "title"
+      ],
+      "label": "Mission block 1 title",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        0,
+        "body"
+      ],
+      "label": "Mission block 1 body",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        1,
+        "title"
+      ],
+      "label": "Mission block 2 title",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        1,
+        "body"
+      ],
+      "label": "Mission block 2 body",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        2,
+        "title"
+      ],
+      "label": "Mission block 3 title",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "mission",
+        "blocks",
+        2,
+        "body"
+      ],
+      "label": "Mission block 3 body",
+      "section": "mission"
+    },
+    {
+      "path": [
+        "custom",
+        "ctaBand",
+        "heading"
+      ],
+      "label": "CTA heading",
+      "section": "ctaBand"
+    },
+    {
+      "path": [
+        "custom",
+        "ctaBand",
+        "body"
+      ],
+      "label": "CTA body",
+      "section": "ctaBand"
+    },
+    {
+      "path": [
+        "custom",
+        "ctaBand",
+        "ctaLabel"
+      ],
+      "label": "CTA button",
+      "section": "ctaBand"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "tagline"
+      ],
+      "label": "Footer tagline",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "columns",
+        0,
+        "title"
+      ],
+      "label": "Footer column 1 title",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "columns",
+        1,
+        "title"
+      ],
+      "label": "Footer column 2 title",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "columns",
+        2,
+        "title"
+      ],
+      "label": "Footer column 3 title",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "contact",
+        "brokerage"
+      ],
+      "label": "Brokerage",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "contact",
+        "address"
+      ],
+      "label": "Footer address",
+      "section": "footer"
+    },
+    {
+      "path": [
+        "custom",
+        "footer",
+        "copyright"
+      ],
+      "label": "Copyright",
+      "section": "footer"
+    }
+  ]
+}

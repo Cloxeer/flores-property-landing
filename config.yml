@@ -1,0 +1,232 @@
+identity:
+  id: ws_flores-property_p3x8wd
+  slug: flores-property
+  displayName: Flores Property
+project:
+  version: 2
+  projectType: restaurant
+  sections:
+    - nav
+    - hero
+    - introBand
+    - services
+    - about
+    - mission
+    - ctaBand
+    - footer
+  pages:
+    - id: home
+      label: Home
+      path: index.html
+      sections:
+        - nav
+        - hero
+        - introBand
+        - services
+        - about
+        - mission
+        - ctaBand
+        - footer
+    - id: services
+      label: Services
+      path: services.html
+      sections:
+        - nav
+        - services
+        - ctaBand
+        - footer
+    - id: about
+      label: About
+      path: about.html
+      sections:
+        - nav
+        - about
+        - mission
+        - ctaBand
+        - footer
+    - id: contact
+      label: Contact
+      path: contact.html
+      sections:
+        - nav
+        - ctaBand
+        - footer
+  templateVariant: flores-property
+site:
+  type: restaurant
+  meta:
+    title: Flores Property · Las Cruces, NM Real Estate
+    description: Anela Flores helps buyers and sellers across Las Cruces, New Mexico
+      with calm, clear guidance from first showing to closing day.
+    favicon: images/flores-logo.png
+  theme:
+    fontDisplay: Lora
+    fontBody: DM Sans
+    colorText: "#333c35"
+    colorMuted: "#5d675f"
+    colorAccent: "#a84f32"
+    colorBackground: "#f8f9f6"
+    colorSurface: "#f3eee5"
+  business:
+    name: Flores Property
+    phone: ""
+    phoneTel: ""
+    address:
+      street: ""
+      city: Las Cruces
+      state: NM
+      zip: ""
+      note: ""
+    hours:
+      label: ""
+      time: ""
+    established: ""
+  nav:
+    links:
+      - href: "#about"
+        label: About
+    phone:
+      showInDesktopHeader: false
+      showInMobileMenu: false
+      showInFooter: false
+      showInFooterOnMobile: false
+  hero:
+    tag: ""
+    headline: ""
+    image: images/las-cruces-organs-hero.jpg
+    primaryCta:
+      label: ""
+      href: ""
+    showPhoneCta: false
+  infoStrip:
+    enabled: false
+  gallery: []
+  about:
+    eyebrow: ""
+    headline: ""
+    paragraphs: []
+    image: ""
+    imageAlt: ""
+    services: []
+  menu:
+    eyebrow: ""
+    title: ""
+    subtitle: ""
+    tabs: []
+    footerNote: ""
+    categories: []
+  specials:
+    eyebrow: ""
+    title: ""
+    subtitle: ""
+    tiles: []
+  contact:
+    headline: ""
+    mapEmbedUrl: ""
+    takeoutNote: ""
+    services: []
+  footer:
+    links:
+      - href: "#about"
+        label: About
+    copyright: © 2026 Flores Property Group. All rights reserved.
+  footerCredit:
+    enabled: true
+    arrowheadText: Fintech Lab powered by Nusenda Credit Union
+    arrowheadUrl: https://arrowheadcenter.nmsu.edu/program/nusenda_fintech_lab/index.html
+    programLogo: images/fintech-lab-logo.png
+  custom:
+    brand:
+      name: Flores Property
+      tagline: A little clarity for every step of your home journey.
+      logo: images/flores-logo.png
+      logoAlt: Flores Property Group logo
+      email: ""
+      phone: ""
+      location: Las Cruces, NM
+    nav:
+      ctaLabel: Let's talk
+    hero:
+      eyebrow: LAS CRUCES, NEW MEXICO · REAL ESTATE
+      headline: A little clarity for every step of your home journey.
+      subhead: Anela Flores guides buyers and sellers across Las Cruces with calm,
+        honest help from the first showing to closing day.
+      image: images/las-cruces-organs-hero.jpg
+      imageAlt: Organ Mountains glowing at sunrise above Las Cruces, New Mexico
+      ctaPrimaryLabel: Let's talk
+      ctaSecondaryLabel: How I can help
+    introBand:
+      eyebrow: Meet Anela
+      heading: Local. Clear. On your side.
+      body: Buying or selling a home is a big step. Anela Flores, a Las Cruces
+        Realtor, keeps every deadline, document and decision in plain view so
+        you always know what happens next.
+      image: images/organ-mountains-moon.jpg
+      imageAlt: Moon rising behind the Organ Mountains
+      ctaLabel: About Anela
+    services:
+      heading: How I can help
+      cards:
+        - title: Buying a home
+          body: Find the right home in Las Cruces, make a strong offer, and get through
+            inspection and closing with confidence.
+          ctaLabel: Learn more
+        - title: Selling your home
+          body: Price it right, prepare it well, and keep every step to closing clear.
+          ctaLabel: Learn more
+        - title: First-time buyers
+          body: Plain-language answers on financing, timelines and what to expect, one
+            step at a time.
+          ctaLabel: Learn more
+        - title: Moving to Las Cruces
+          body: New to the Mesilla Valley? Get a local's view of neighborhoods before you
+            commit.
+          ctaLabel: Learn more
+    about:
+      heading: Hi, I'm Anela.
+      image: images/organ-mountains-desert.jpg
+      imageAlt: Organ Mountains rising over the Chihuahuan Desert near Las Cruces
+      paragraphs:
+        - I'm Anela Flores, a Realtor in Las Cruces, New Mexico, and I lead the
+          Flores Property Group.
+        - I've called Las Cruces home since 2002 and studied Communication and
+          Business at New Mexico State University. I work with buyers, sellers
+          and investors across the city.
+        - My approach is simple. I explain every step, keep every deadline
+          visible, and make sure you never have to wonder what comes next.
+      ctaLabel: Let's talk
+    mission:
+      blocks:
+        - title: Clarity first
+          body: Plain-language updates and clear timelines, so there are no surprises.
+        - title: Every deadline covered
+          body: Contract dates, inspections, financing and closing are tracked so nothing
+            slips.
+        - title: Local to Las Cruces
+          body: Neighborhood knowledge across Las Cruces and the Mesilla Valley.
+    ctaBand:
+      heading: Ready for the next step?
+      body: Tell me where you are in your home journey and we'll map out what comes
+        next.
+      ctaLabel: Let's talk
+    footer:
+      tagline: A little clarity for every step of your home journey.
+      columns:
+        - title: Explore
+          links:
+            - label: Home
+            - label: Services
+            - label: About
+            - label: Contact
+        - title: How I can help
+          links:
+            - label: Buying
+            - label: Selling
+            - label: First-time buyers
+            - label: Moving to Las Cruces
+        - title: Find us
+          links: []
+      contact:
+        brokerage: Keller Williams Realty, Las Cruces
+        address: Las Cruces, New Mexico
+      copyright: © 2026 Flores Property Group. All rights reserved.
